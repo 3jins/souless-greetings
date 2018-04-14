@@ -1,0 +1,27 @@
+{
+  "name": "Souless Greetings",
+  "version": "1.0",
+  "description": "We make souless greeting statements based on the weather that can be used generally like \"Hi, this is Sejin Jeon of Konkuk University. Be careful not to catch a cold while the change of seasons like nowadays.\" or \"안녕하세요, 건국대학교 전세진입니다. 어디론가 훌쩍 떠나고 싶을 정도로 봄 날씨가 완연한 요즘입니다.\"",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "options_page": "options.html",
+  "manifest_version": 2
+}
